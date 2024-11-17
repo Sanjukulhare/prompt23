@@ -1,0 +1,177 @@
+
+
+
+html,body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Urbanist", sans-serif;
+    background-color: #1c032e;
+}
+header{
+    width: 100vw;
+    background-color: #1d9cff;
+    box-shadow: 0px 4px 8px rgba(29, 156, 255, 0.5);
+}
+.container{
+    width: 1320px;
+    padding-inline: 15px;
+    margin: 0 auto;
+}
+header .container-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+header .container-content i{
+    font-size: 36px;
+    color: #e3ecf4;
+}
+.page1{
+    width: 100vw;
+    padding: 80px 0 60px 0;
+}
+.page1-content{
+    position: relative;
+    width: 100%;
+    max-width: 1950px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.page1-content::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 90%;
+    height: 4px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.page1-content .step{
+    background-color: #e3ecf4;
+    width: 22%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 2px 6px 16px rgba(29, 156, 255, 0.5);
+}
+.page1-content .step .icon{
+    margin-right: 10px;
+    color: #fff;
+    font-size: 30px;
+}
+.page1-content .step .icon .doing{
+    width: 28px;
+    height: 28px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #1d9cff;
+}
+.page1-content .step .icon .fa-solid{
+    display: none;
+}
+.page1-content .step .text{
+    font-size: 22px;
+    color: #5100ff;
+    font-weight: 700;
+
+}
+.page1 .container{
+    margin-top: 80px;
+}
+.page1 .content1{
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 15px;
+    position: relative;
+    background-color: #e3ecf4;
+    box-shadow: 4px 8px 24px rgba(29, 156, 255, 0.5);
+}
+.content1 .Infos .Info{
+    margin-bottom: 30px;
+}
+.content1 .Infos .Info .title{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.content1 .Infos .Info .title i{
+    font-size: 30px;
+    color: #1d9cff;
+}
+.content1 .Infos .Info .title h2{
+    margin: 0 0 0 15px;
+    color: #5100ff;
+}
+.content1 .Infos .Info input,
+.content1 .Infos .Info textarea{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 0 0 38px;
+    padding: 20px 0 20px 15px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    background-color: violet;
+}
+.content1 .Infos .Info::placeholder{
+    color: #fff;
+    font-size: 16px;
+}
+.content1 .Infos .Info:nth-child(1){
+    margin-bottom: 50px;
+}
+.content1 .action{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.content1 .action .btn{
+    width: 220px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 4px 8px rgba(29, 156, 255, 0.5);
+}
+.content1 .action .btn-next{
+    color: #fff;
+    background-color: #5100ff;
+    border: none;
+}
+.content1 .float-icon{
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    color: #5100ff;
+    font-size: 50px;
+}
+.content1 .float-icon span{
+    position: absolute;
+    font-size: 18px;
+    display: block;
+    left: -140px;
+}
